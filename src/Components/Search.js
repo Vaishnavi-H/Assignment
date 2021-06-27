@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Search.css';
 
 
+
 const Search=function(props){
 const [name,setName]=useState("",[]);
 const[show,setShow]=useState(false);
@@ -103,7 +104,7 @@ return(
     
 <div class="container">
       {filtered.map((a) => (
-       <option onClick={handleClick}>{a.value}</option>
+       <div class="ba"><option onClick={handleClick}>{a.value}</option></div>
       ))}
 </div>
       

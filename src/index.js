@@ -7,8 +7,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-  <Search />
  
+ <Search/>
   </React.StrictMode>,
   document.getElementById('root')
 );
