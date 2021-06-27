@@ -1,0 +1,75 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    margin-left: 400px;
+
+    
+    
+}
+input[type="text"]{
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 400px;
+   
+}
+.btn{
+    display: flex;
+    padding: 10px;
+    border: none;
+    width: 530px;
+    
+    cursor: pointer;
+}
+.b2{
+    width:20px;
+    height: 43px;
+    
+
+}
+
+.ui{
+    border: 1px solid blue;
+    margin-right:10px ;
+    border-radius: 5px;
+    height: 20px;
+  
+    
+
+}
+.box{
+display: flex;
+flex-direction: row;
+position: absolute;
+left: 460px;
+top:40px;
+list-style: none;
+font-size: 12px;
+}
+.btn2{
+    border-radius: 50%;
+    border-bottom: none;
+    outline: 0;
+    cursor: pointer;
+    top: 10px;
+    border:0 ;
+    color:white;
+    background: rgb(121, 151, 206);
+    width:19px;
+    height: 19px;
+    
+    
+}
+.fa{
+    font-size: 10px;
+   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width:100px;
+    height:100px;
+}
